@@ -13,12 +13,17 @@ Hi W.a.y.l. (Will Automate Your Life) is a simple virtual assistant that I creat
     6. Press "Help" if you need a refresher on how to use
 
 **It accepts the following commands**
-    * search -> google search
+    * time -> tell time
+        * ex: time
+
+    * search -$searchterm -> google search
+        * ex: search -vscode
     
     * translate -$origin -$tolang -> translate a word  
         * ex: translate -I am -pt
 
-    * wiki - search on wikipedia
+    * wiki -$term -> search on wikipedia
+        * ex: wiki -music
     
     * calc $calculation -> calculate (python)
         * ex: calc 2+5
@@ -48,3 +53,6 @@ This project was made in python 3.8.2
 * google
 * datetime
 * pickle
+
+## Credits
+Project made by Force 4760 in September 2019

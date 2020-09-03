@@ -104,7 +104,7 @@ while True:
         win.start(win.command[0])
         
     elif win.event == "Help":
-        sg.popup('Help', "time -> tell time\n   ex: time\n \nsearch -> google search\n   ex: search -vscode\n \ntranslate -$origin -$tolang -> translate a word\n   ex: translate -I am -pt\n \nwiki - search on wikipedia\n   ex: wiki -music\n \ncalc $calculation -> calculate (python)\n   ex: calc 2+5\n \ncreate -$name -$type -> create a new project\n   ex: create -new project -(web/flutter/python/design/music)\n")
+        sg.popup('Help', "time -> tell time\n   ex: time\n \nsearch -$searchterm -> google search\n   ex: search -vscode\n \ntranslate -$origin -$tolang -> translate a word\n   ex: translate -I am -pt\n \nwiki -$term -> search on wikipedia\n   ex: wiki -music\n \ncalc $calculation -> calculate (python)\n   ex: calc 2+5\n \ncreate -$name -$type -> create a new project\n   ex: create -new project -(web/flutter/python/design/music)\n")
     
     elif win.event == "Settings":
         win.settings()
